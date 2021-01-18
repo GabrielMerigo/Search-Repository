@@ -1,0 +1,163 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #10161b;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+header {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+header * {
+  z-index: 1;
+}
+
+header h1 {
+  margin: 0 0 30px;
+}
+
+form {
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+}
+
+form input {
+  border: 0;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+form button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: #8d56fd;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  padding: 13px 30px;
+}
+
+.btn {
+  background-color: #8d56fd;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+.container {
+  list-style-type: none;
+  padding: 0;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 500px;
+  background-color: #10161b;
+}
+
+.song {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.warning-message {
+  color: #ea2234;
+  text-align: center;
+}
+
+.repo {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.title {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.contributors-item {
+  margin: 10px 0 30px 0;
+}
+
+.person-img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.person-title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.person-name,
+.person-contributions {
+  margin-top: 5px;
+  color: #fff;
+}
+
+.issue-container {
+  margin: 20px 0;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.issue-h1 {
+  margin-bottom: 10px;
+}
+
+.issue-body,
+.issue-state {
+  margin-top: 5px;
+}
