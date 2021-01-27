@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Github Repositories Search</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Searching User Repositories on GitHub</h1>
+    <form id="form">
+      <input id="search" type="text" placeholder="Enter username ..." />
+      <button>Search</button>
+    </form>
+  </header>
+  
+  <ul id="repositories-container" class="container"></ul>
+  
+  <div class="radios container">
+    <h2 class="h2-title">Filter Issues</h2>
+    <input id="open" type="radio" name="value"><label class="label" for="open">Open</label>
+    <input id="closed" type="radio" name="value" ><label class="label" for="closed">Closed</label>
+    <input id="all" type="radio" name="value" ><label class="label" for="all">All</label>
+  </div>
+
+  <ul id="issues-container" class="container ulOpen"></ul>
+  <ul id="issues-container-closed" class="container ulClosed"></ul>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
