@@ -1,6 +1,6 @@
 <h1 align="center">Search Repository </h1>
 
-![teste](assets/search.gif)
+![teste](search.gif)
 
 ### :bulb:	Sobre o projeto
 <p>Aqui eu densenvolvi um pequeno projeto para brincar com Javascript Tilt.js. Usando Também HTML, CSS e JavaScript fazendo o efeito de "vidro" nos cards.</p>
