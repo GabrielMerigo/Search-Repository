@@ -3,7 +3,7 @@
 ![teste](search.gif)
 
 ### :bulb:	Sobre o projeto
-<p>Aqui eu desenvolvi um projeto que consome a API do GitHub. Mostrando os nomes do usuários, repositórios, contribuídores desses repositórios, issues (podendo filtrar entre fechada e aberta).</p>
+<p>Aqui eu desenvolvi um projeto que consome a API do GitHub. Mostrando os nomes dos usuários, repositórios, contribuídores desses repositórios, issues (podendo filtrar entre fechada e aberta).</p>
 
 ### :heavy_check_mark: Principais tecnologias utilizadas
 
